@@ -1,0 +1,29 @@
+{
+  "name": "simple-url-shortner",
+  "version": "0.0.0",
+  "description": "Using node, fastify, sqlite3",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@ssh.github.com:443/erfanium/simple-url-shortner"
+  },
+  "keywords": [
+    "url-shortner",
+    "fastify",
+    "sqlite"
+  ],
+  "author": "ERFANIUM",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.1.1",
+    "crypto-random-string": "^3.3.0",
+    "fastify": "^3.9.2"
+  }
+}
